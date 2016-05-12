@@ -1,0 +1,28 @@
+{
+  "name": "doctor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/royschuyler/doctor.git"
+  },
+  "author": "royschuyler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/royschuyler/doctor/issues"
+  },
+  "homepage": "https://github.com/royschuyler/doctor#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "materialize-css": "^0.97.6",
+    "mysql": "^2.10.2",
+    "pug": "^0.1.0",
+    "sqlite3": "^3.1.3"
+  }
+}
