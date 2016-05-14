@@ -1,3 +1,10 @@
+
+/*
+var btn = document.getElementById("intro");
+btn.onclick=function() {
+  console.log('Hello Clairece')
+};
+
 var express = require('express');
 var app = express();
 var bodyParser = require('body-parser')
@@ -28,3 +35,6 @@ app.get('/test', function(req, res) {
 //-----------------------------------------------------------------------------------------------
 
 app.listen(3000);
+
+*/
+

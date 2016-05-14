@@ -1,32 +1,17 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <meta charset="UTF-8">
-    <title>title</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="row">
-      <div class="col s1">1</div>
-      <div class="col s1">2</div>
-      <div class="col s1">3</div>
-      <div class="col s1">4</div>
-      <div class="col s1">5</div>
-      <div class="col s1">6</div>
-      <div class="col s1">7</div>
-      <div class="col s1">8</div>
-      <div class="col s1">9</div>
-      <div class="col s1">10</div>
-      <div class="col s1">11</div>
-      <div class="col s1">12</div>
-    </div>
-    <div class='container'>
-      <a class='col s1' href='/test'>test</a>
-      <a class='col s1' href='/set'>set</a>
-    </div>
+<head>
+<title></title>
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script>
+$(function(){
+  $("#header").load("header.html");
+  $("#footer").load("footer.html");
+});
+</script>
+</head>
+<body>
+<div id="header"></div>
 
 
 
@@ -38,7 +23,12 @@
 
 
 
-<!------------------------------------------------------------------------------------------------>
-  <script type="text/javascript" src="script.js"></script>
-  </body>
+
+
+
+
+
+<!--Remaining section-->
+<div id="footer"></div>
+</body>
 </html>
